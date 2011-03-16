@@ -1,5 +1,46 @@
 @CHARSET "ISO-8859-1";
 
+body {
+	background-color:#231f20;
+	color:#21f20f;
+}
 #outerContainer {
   width:800px;
+  margin-top:40px;
+  margin-left:auto;
+  margin-right:auto;
+  border:1px solid black;
+}
+#headerDiv {
+	width:790px;
+}
+#sizeDiv {
+width:395px;
+}
+#crustDiv {
+width:395px;
+}
+#meatDiv {
+width:395px;
+}
+#veggieDiv {
+width:395px;
+}
+h1 {
+text-align:center;
+}
+#billingname {
+width:150px;
+}
+#billingaddress {
+width:200px;
+}
+#billingcity {
+width:90px;
+}
+#billingstate {
+width:25px;
+}
+#billingzip {
+width:50px;
 }

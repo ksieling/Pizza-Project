@@ -1,1 +1,3 @@
-<img src="images/header.png" />
+<div id="headerDiv">
+<img src="images/PizzaBanner.jpg" />
+</div>
