@@ -10,30 +10,63 @@ body {
   margin-left:auto;
   margin-right:auto;
   border:1px solid black;
+  position:relative;
 }
 #headerDiv {
 	width:790px;
 }
+fieldset {
+	border:none;
+}
+#upperMenuDiv {
+	width:790px;
+}
 #sizeDiv {
-width:395px;
+width:387px;
+float:left;
+margin-left:10px;
+	margin-bottom:10px;
 }
 #crustDiv {
-width:395px;
+width:387px;
+float:right;
+margin-left:5px;
+	margin-bottom:10px;
+}
+#middleMenuDiv {
+	width:790px;
+	clear:both;
 }
 #meatDiv {
-width:395px;
+	width:387px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:10px;
 }
 #veggieDiv {
-width:395px;
+width:387px;
+float:right;
+margin-left:5px;
+	margin-bottom:10px;
 }
 h1 {
 text-align:center;
 }
+#lowerMenuDiv {
+	width:790px;
+	clear:both;
+}
+#billingInfo {
+	width:387px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:10px;
+}
 #billingname {
-width:150px;
+width:200px;
 }
 #billingaddress {
-width:200px;
+width:250px;
 }
 #billingcity {
 width:90px;
@@ -43,4 +76,37 @@ width:25px;
 }
 #billingzip {
 width:50px;
+}
+#billingemail {
+	width:250px;
+}
+#shippingInfo {
+	width:387px;
+	float:right;
+	margin-left:5px;
+	margin-bottom:10px;
+}
+#shippingname {
+width:200px;
+}
+#shippingaddress {
+width:250px;
+}
+#shippingcity {
+width:90px;
+}
+#shippingstate {
+width:25px;
+}
+#shippingzip {
+width:50px;
+}
+#shippingemail {
+	width:250px;
+}
+#submitDiv {
+	clear:both;
+	text-align:center;
+}
+#footerDiv {
 }
