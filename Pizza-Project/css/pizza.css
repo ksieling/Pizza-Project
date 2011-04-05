@@ -5,11 +5,11 @@ body {
 	color:#21f20f;
 }
 #outerContainer {
-  width:800px;
+  width:820px;
   margin-top:40px;
   margin-left:auto;
   margin-right:auto;
-  border:1px solid black;
+  border:1px solid #21f20f;
   position:relative;
 }
 #headerDiv {
@@ -54,6 +54,11 @@ width:387px;
 float:right;
 margin-left:5px;
 	margin-bottom:10px;
+}
+#totalDiv {
+	width:790px;
+	clear:both;
+	text-align:center;
 }
 h1 {
 text-align:center;
@@ -120,7 +125,33 @@ width:50px;
 	text-align:center;
 }
 #footerDiv {
+	text-align:center;
 }
 .same {
 	text-align:center;
+}
+#errormsg {
+border:2px solid #c00;
+padding:5px;
+width:20em;
+margin-left:auto;
+margin-right:auto;
+clear:both;
+margin-bottom:10px;
+}    
+.error {
+background:#fcc;
+}
+#captchaDiv {
+	text-align:center;
+	clear:both;
+	width:790px;
+	margin-bottom:10px;
+}
+#captchaDiv label {
+	margin-left:15px;
+}
+.req {
+	color:#C00;
+	margin-left:3px;
 }
